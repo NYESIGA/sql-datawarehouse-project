@@ -1,0 +1,34 @@
+OMURAMA DATA LAKEHOUSE – SYSTEM SOURCE ANALYSIS INTERVIEW QUESTIONS
+1. Business Context and Ownership
+What is the primary purpose of your system within the business workflow?
+Which department or business unit owns and manages this system?
+Who are the key stakeholders responsible for data governance and decision-making?
+What business processes generate the data captured in your system?
+What critical business problems does this system solve?
+What data is most valuable for analytics, reporting, and machine learning?
+Are there any regulatory, compliance, or privacy requirements associated with your system data?
+How frequently is the data required for operational or analytical use?
+What is the expected data availability and uptime for integration?
+What are the known challenges or limitations with the current data sources?
+2. Architecture and Technology Stack
+What type of system are you running (ERP, CRM, custom application, IoT platform, transactional database, etc.)?
+What is the underlying database technology (SQL, NoSQL, API-based, streaming, file-based, etc.)?
+What programming languages or frameworks were used to build the system?
+Is the system hosted on-premise, in the cloud, or hybrid? Specify the environment.
+What authentication and authorization mechanisms does the system use?
+What is the data storage format (tables, logs, documents, JSON, CSV, Parquet, etc.)?
+How is data structured—structured, semi-structured, or unstructured?
+What APIs, connectors, or export mechanisms are available for data extraction?
+What is the typical system load and performance profile?
+Are there event logs, audit logs, or system logs available for ingestion?
+3. Extract and Load (Data Acquisition)
+What data needs to be extracted for the bronze layer (tables, logs, files, transactions, events)?
+What is the size and growth rate of the data (daily, weekly, monthly volumes)?
+How frequently is the data updated (real-time, micro-batch, daily batch)?
+What extraction methods are supported (CDC, JDBC/ODBC, APIs, webhooks, file drops, streaming)?
+Are there data quality checks already implemented at the source?
+What is the expected data latency for ingestion into the data lakehouse?
+Are there limits or restrictions on API calls, data exports, or bandwidth?
+What security protocols must be followed when extracting data?
+What format should the extracted data be delivered in (raw, unchanged, full dumps, incremental)?
+Are there any known data anomalies, duplicate issues, or missing values we should plan for?
