@@ -1,5 +1,7 @@
-OMURAMA DATA LAKEHOUSE – SYSTEM SOURCE ANALYSIS INTERVIEW QUESTIONS
+OMURAMA DATA WAREHOUSE – SYSTEM SOURCE ANALYSIS INTERVIEW QUESTIONS
+    
 1. Business Context and Ownership
+
 What is the primary purpose of your system within the business workflow?
 Which department or business unit owns and manages this system?
 Who are the key stakeholders responsible for data governance and decision-making?
@@ -10,7 +12,9 @@ Are there any regulatory, compliance, or privacy requirements associated with yo
 How frequently is the data required for operational or analytical use?
 What is the expected data availability and uptime for integration?
 What are the known challenges or limitations with the current data sources?
-2. Architecture and Technology Stack
+
+       2. Architecture and Technology Stack
+
 What type of system are you running (ERP, CRM, custom application, IoT platform, transactional database, etc.)?
 What is the underlying database technology (SQL, NoSQL, API-based, streaming, file-based, etc.)?
 What programming languages or frameworks were used to build the system?
@@ -21,7 +25,9 @@ How is data structured—structured, semi-structured, or unstructured?
 What APIs, connectors, or export mechanisms are available for data extraction?
 What is the typical system load and performance profile?
 Are there event logs, audit logs, or system logs available for ingestion?
-3. Extract and Load (Data Acquisition)
+
+          3. Extract and Load (Data Acquisition)
+
 What data needs to be extracted for the bronze layer (tables, logs, files, transactions, events)?
 What is the size and growth rate of the data (daily, weekly, monthly volumes)?
 How frequently is the data updated (real-time, micro-batch, daily batch)?
